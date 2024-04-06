@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="navigation">
+        <div class="name-searching">
+          <h5 class="site-name">ANIMA</h5>
+          <div class="search">
+            <input
+              type="search"
+              name="search"
+              id="search-input"
+              placeholder="Search anime..."
+              value=""
+              autocomplete="off"
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="#E64A59"
+              class="search-img"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6.5 13a6.47 6.47 0 0 0 3.845-1.258h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1A6.47 6.47 0 0 0 13 6.5 6.5 6.5 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13m0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <ul class="navigation-ul">
+          <li class="navigation-li active-li">Home</li>
+          |
+          <li class="navigation-li"><a href="./genre.html">Genre</a></li>
+          |
+          <li class="navigation-li"><button>Sign In</button></li>
+        </ul>
+      </header>
+      <main>
+        <section class="slider">
+          <figure class="slider-box" style="background-image: url(./image.png)">
+            <figcaption class="slider-txt" style="opacity: 1">
+              <h3 class="slider-article">One Piece</h3>
+              <p class="slider-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquid voluptates libero in veritatis, aliquam commodi mollitia
+                alias quis consectetur, itaque natus corporis similique eos
+                corrupti, est optio. Quaerat, voluptatibus eos.
+              </p>
+              <button>Play Now</button>
+            </figcaption>
+          </figure>
+        </section>
+        <section class="suggestions-div">
+          <div class="suggestion">
+            <article class="suggetion-list-title">
+              <h2>Recent Updated</h2>
+              <p>See More</p>
+            </article>
+            <div class="overflow">
+              <figure class="suggestion-list">
+                <div class="suggetion-box">
+                  <div class="suggetion-box-img">
+                    <img src="./image.png" alt="title" />
+                  </div>
+                  <figcaption class="suggetion-txt">
+                    <h4>One Piece</h4>
+                    <button>Watch Now</button>
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div class="suggestion">
+            <article class="suggetion-list-title">
+              <h2>Most Viewed</h2>
+              <p>See More</p>
+            </article>
+            <div class="overflow">
+              <figure class="suggestion-list">
+                <div class="suggetion-box">
+                  <div class="suggetion-box-img">
+                    <img src="./image.png" alt="title" />
+                  </div>
+                  <figcaption class="suggetion-txt">
+                    <h4>One Piece</h4>
+                    <button>Watch Now</button>
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div class="suggestion">
+            <article class="suggetion-list-title">
+              <h2>Week Trending</h2>
+              <p>See More</p>
+            </article>
+            <div class="overflow">
+              <figure class="suggestion-list">
+                <div class="suggetion-box">
+                  <div class="suggetion-box-img">
+                    <img src="./image.png" alt="title" />
+                  </div>
+                  <figcaption class="suggetion-txt">
+                    <h4>One Piece</h4>
+                    <button>Watch Now</button>
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
