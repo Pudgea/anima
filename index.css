@@ -16,6 +16,7 @@ figure{
 
 button{
     transition: background-color 0.3s;
+    cursor: pointer;
 
     background-color:#E64A59 ;
     font-weight: 550;
@@ -62,7 +63,7 @@ header{
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
     position: fixed;
     z-index: 2;
@@ -71,7 +72,15 @@ header{
     left: 0;
     top: 0;
 }
-
+.navigation-padding{
+    padding: 0 20px;
+    width: 100%;
+}
+.navigation-cover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .name-searching{
     display: flex;
     align-items: center;
@@ -110,14 +119,48 @@ input[type="search"] {
 }
 .navigation-li{
     cursor: pointer;
+
+    transition: 0.1s;
+    border-bottom: 0px solid #ffffff;
 }
+.navigation-li:hover{
+    transition: 0.1s;
+    border-bottom: 3px solid #E64A59;
+}
+
 .active-li{
     color: #454545;
     cursor:default;
 }
 
+.c3{
+display: none;
 
+    transition: 0.3s;
+    position: absolute;
+    top: 100px;
+    width: 100%;
 
+    left: 0;
+
+    padding: 0;
+    background-color: #121725;
+    padding: 15px 20px;
+}
+.c3 li{
+    transition: 0.5s;
+    cursor: pointer;
+
+    width: 33.3333333333%;
+    list-style: none;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px 10px;
+}
+.c3 li:hover{
+    transition: 0.5s;
+    background-color: #0C101B;
+}
 
 
 /* main */
@@ -185,7 +228,7 @@ main{
 }
 
 .suggestion{
-    border-bottom: 5px solid #ffffff28;
+    border-bottom: 3px solid #ffffff28;
     padding-bottom: 20px;
 }
 .suggetion-list-title{
@@ -251,7 +294,7 @@ main{
 
 .genre-div{
     position: relative;
-    height: 400px;
+    height: 350px;
     width: 220px;
 }
 
@@ -326,4 +369,15 @@ main{
     top: 0;
     left: 0;
     overflow: auto;
+}
+.reg-ask{
+    font-size: 13px;
+}
+.reg-ask a{
+    color: #E64A59;
+    text-decoration: underline;
+}
+.reg-title{
+    position: absolute;
+    bottom: 235px;
 }

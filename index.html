@@ -7,42 +7,188 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="navigation">
-        <div class="name-searching">
-          <h5 class="site-name">ANIMA</h5>
-          <div class="search">
-            <input
-              type="search"
-              name="search"
-              id="search-input"
-              placeholder="Search anime..."
-              value=""
-              autocomplete="off"
-            />
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="#E64A59"
-              class="search-img"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M6.5 13a6.47 6.47 0 0 0 3.845-1.258h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1A6.47 6.47 0 0 0 13 6.5 6.5 6.5 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13m0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018"
+    <header class="navigation">
+      <div class="navigation-padding">
+        <div class="navigation-cover">
+          <div class="name-searching">
+            <h5 class="site-name">ANIMA</h5>
+            <div class="search">
+              <input
+                type="search"
+                name="search"
+                id="search-input"
+                placeholder="Search anime..."
+                value=""
+                autocomplete="off"
               />
-            </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="#E64A59"
+                class="search-img"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6.5 13a6.47 6.47 0 0 0 3.845-1.258h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1A6.47 6.47 0 0 0 13 6.5 6.5 6.5 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13m0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018"
+                />
+              </svg>
+            </div>
           </div>
-        </div>
 
-        <ul class="navigation-ul">
-          <li class="navigation-li active-li">Home</li>
-          |
-          <li class="navigation-li"><a href="./genre.html">Genre</a></li>
-          |
-          <li class="navigation-li"><button>Sign In</button></li>
-        </ul>
-      </header>
+          <nav>
+            <ul class="navigation-ul">
+              <li class="navigation-li"><a href="./index.html">Home</a></li>
+              |
+              <li class="navigation-li">
+                Genre
+                <ul class="c3">
+                  <li>
+                    <a href="/genre/adventure" title="Adventure Anime"
+                      >Adventure</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/genre/action" title="Action Anime">Action</a>
+                  </li>
+                  <li>
+                    <a href="/genre/avant-garde" title="Avant Garde Anime"
+                      >Avant Garde</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/genre/boys-love" title="Boys Love Anime"
+                      >Boys Love</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/genre/comedy" title="Comedy Anime">Comedy</a>
+                  </li>
+                  <li>
+                    <a href="/genre/demons" title="Demons Anime">Demons</a>
+                  </li>
+                  <li><a href="/genre/drama" title="Drama Anime">Drama</a></li>
+                  <li><a href="/genre/ecchi" title="Ecchi Anime">Ecchi</a></li>
+                  <li>
+                    <a href="/genre/fantasy" title="Fantasy Anime">Fantasy</a>
+                  </li>
+                  <li>
+                    <a href="/genre/girls-love" title="Girls Love Anime"
+                      >Girls Love</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/genre/gourmet" title="Gourmet Anime">Gourmet</a>
+                  </li>
+                  <li><a href="/genre/harem" title="Harem Anime">Harem</a></li>
+                  <li>
+                    <a href="/genre/horror" title="Horror Anime">Horror</a>
+                  </li>
+                  <li>
+                    <a href="/genre/isekai" title="Isekai Anime">Isekai</a>
+                  </li>
+                  <li>
+                    <a href="/genre/iyashikei" title="Iyashikei Anime"
+                      >Iyashikei</a
+                    >
+                  </li>
+                  <li><a href="/genre/josei" title="Josei Anime">Josei</a></li>
+                  <li><a href="/genre/kids" title="Kids Anime">Kids</a></li>
+                  <li><a href="/genre/magic" title="Magic Anime">Magic</a></li>
+                  <li>
+                    <a href="/genre/mahou-shoujo" title="Mahou Shoujo Anime"
+                      >Mahou Shoujo</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/genre/martial-arts" title="Martial Arts Anime"
+                      >Martial Arts</a
+                    >
+                  </li>
+                  <li><a href="/genre/mecha" title="Mecha Anime">Mecha</a></li>
+                  <li>
+                    <a href="/genre/military" title="Military Anime"
+                      >Military</a
+                    >
+                  </li>
+                  <li><a href="/genre/music" title="Music Anime">Music</a></li>
+                  <li>
+                    <a href="/genre/mystery" title="Mystery Anime">Mystery</a>
+                  </li>
+                  <li>
+                    <a href="/genre/parody" title="Parody Anime">Parody</a>
+                  </li>
+                  <li>
+                    <a href="/genre/psychological" title="Psychological Anime"
+                      >Psychological</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/genre/reverse-harem" title="Reverse Harem Anime"
+                      >Reverse Harem</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/genre/romance" title="Romance Anime">Romance</a>
+                  </li>
+                  <li>
+                    <a href="/genre/school" title="School Anime">School</a>
+                  </li>
+                  <li>
+                    <a href="/genre/sci-fi" title="Sci-Fi Anime">Sci-Fi</a>
+                  </li>
+                  <li>
+                    <a href="/genre/seinen" title="Seinen Anime">Seinen</a>
+                  </li>
+                  <li>
+                    <a href="/genre/shoujo" title="Shoujo Anime">Shoujo</a>
+                  </li>
+                  <li>
+                    <a href="/genre/shounen" title="Shounen Anime">Shounen</a>
+                  </li>
+                  <li>
+                    <a href="/genre/slice-of-life" title="Slice of Life Anime"
+                      >Slice of Life</a
+                    >
+                  </li>
+                  <li><a href="/genre/space" title="Space Anime">Space</a></li>
+                  <li>
+                    <a href="/genre/sports" title="Sports Anime">Sports</a>
+                  </li>
+                  <li>
+                    <a href="/genre/super-power" title="Super Power Anime"
+                      >Super Power</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/genre/supernatural" title="Supernatural Anime"
+                      >Supernatural</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/genre/suspense" title="Suspense Anime"
+                      >Suspense</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/genre/thriller" title="Thriller Anime"
+                      >Thriller</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/genre/vampire" title="Vampire Anime">Vampire</a>
+                  </li>
+                </ul>
+              </li>
+              |
+              <li>
+                <a href="./signin.html"><button>Sign In</button></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
       <main>
         <section class="slider">
           <figure class="slider-box" style="background-image: url(./image.png)">
